@@ -8,8 +8,11 @@ app_include_css = "triacore_branding/public/css/triacore.css"
 
 fixtures = [
     {"doctype": "Translation", "filters": [["language", "=", "en"]]},
-    {"doctype": "Workspace",   "filters": [["name", "in", ("Settings", "Integrations")]]}
+    {"doctype": "Workspace",
+     "filters": [["name", "in",
+                  ("ERPNext Settings", "ERPNext Integrations")]]}
 ]
+
 # Apps
 # ------------------
 
