@@ -6,16 +6,9 @@ app_email = "support@triacore.com"
 app_license = "mit"
 app_include_css = "triacore_branding/public/css/triacore.css"
 
-
 fixtures = [
-    {
-        "doctype": "Translation",
-        "filters": [
-            ["language", "=", "en"]   # export only English strings
-            # Optional: limit further
-            # ["source_text", "in", ("Frappe", "ERPNext")]
-        ]
-    }
+    {"doctype": "Translation", "filters": [["language", "=", "en"]]},
+    {"doctype": "Workspace",   "filters": [["name", "in", ("Settings", "Integrations")]]}
 ]
 # Apps
 # ------------------
