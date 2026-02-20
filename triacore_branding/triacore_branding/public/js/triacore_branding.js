@@ -4,6 +4,8 @@
 	const REPLACEMENTS = [
 		["Frappe HR", "Triacore HR"],
 		["FrappeHR", "Triacore HR"],
+		["ERPNext", "Triacore ERP"],
+		["ERP Next", "Triacore ERP"],
 	];
 
 	function replaceInTextNodes(root) {
