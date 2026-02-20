@@ -13,6 +13,9 @@ fixtures = [
                   ("ERPNext Settings", "ERPNext Integrations")]]}
 ]
 
+# Load in Desk and Website
+app_include_js = "/assets/triacore_branding/js/triacore_branding.js"
+app_include_css = "/assets/triacore_branding/css/triacore_branding.css"
 # Apps
 # ------------------
 
