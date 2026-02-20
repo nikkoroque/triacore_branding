@@ -1,1 +1,15 @@
 :root { --brand-primary: #2A65F5; }
+
+button[aria-label="Help Dropdown"],
+button[aria-controls="toolbar-help"],
+li.nav-item.dropdown-help,
+.dropdown-help,
+#toolbar-help {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+/* Hide Apps link from user dropdown */
+#toolbar-user a.dropdown-item[href="/apps"] {
+  display: none !important;
+}
